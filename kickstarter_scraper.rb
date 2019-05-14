@@ -1,4 +1,4 @@
-require 'kickstarter_scraper.rb'
+require 'kickstarter_scraper'
 
 def create_project_hash
   html = File.read('fixtures/kickstarter.html')
